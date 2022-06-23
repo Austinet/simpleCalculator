@@ -15,7 +15,7 @@ if(operator === "+") {
 } else if (operator === "%") {
     result = firstNumber % secondNumber;
 } else {
-    alert("Invalid operator")
+    alert("Invalid operator");
 }
 
 alert(`${firstNumber} ${operator} ${secondNumber} = ${result}`)
